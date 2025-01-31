@@ -1,0 +1,61 @@
+body {
+    background-color: #6193c5;
+    color: #000000;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.weather-card {
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.weather-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+.icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.timeline {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hour-block {
+    min-width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.hour-block p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.hour-icon {
+    font-size: 12px;
+    margin-top: 5px;
+}
